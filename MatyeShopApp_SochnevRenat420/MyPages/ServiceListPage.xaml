@@ -84,8 +84,12 @@
                 </ListView>
             </StackPanel>
             <StackPanel>
+                <TextBlock Text="Поиск:"/>
                 <TextBox Name="SearchTb"
                          Width="140"/>
+                <TextBlock Text="Коллекция:"/>
+                <ComboBox Name="CollectionCb"
+                          Width="140"/>
             </StackPanel>
         </StackPanel>
     </Grid>
