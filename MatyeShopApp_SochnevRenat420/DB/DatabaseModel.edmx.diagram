@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a231e7e953e2445fbb15ae94f5a3420a" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="MatyeShopDBModel.Client" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatyeShopDBModel.Client_Service" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatyeShopDBModel.Master" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatyeShopDBModel.Qualification" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatyeShopDBModel.Service" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatyeShopDBModel.ServiceCollection" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatyeShopDBModel.ServiceType" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatyeShopDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="MatyeShopDBModel.FK_Client_Service_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="MatyeShopDBModel.FK_Client_Service_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="MatyeShopDBModel.FK_Master_Qualification" ManuallyRouted="false" />
+        <AssociationConnector Association="MatyeShopDBModel.FK_Service_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="MatyeShopDBModel.FK_Service_ServiceCollection" ManuallyRouted="false" />
+        <AssociationConnector Association="MatyeShopDBModel.FK_Service_ServiceType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
